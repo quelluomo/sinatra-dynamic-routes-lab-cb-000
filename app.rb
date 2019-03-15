@@ -32,5 +32,5 @@ class App < Sinatra::Base
     @res = "#{@add} #{@sub} #{@mult} #{@div}"
     @res
     end
-    
+
 end
