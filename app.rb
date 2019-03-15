@@ -26,11 +26,11 @@ class App < Sinatra::Base
 
   get "/operation/:number1/:number2" do
     @add = params[:number1].to_i + params[:number2].to_i
-    #@sub = params[:number1].to_i - params[:number2].to_i
+    @sub = params[:number1].to_i - params[:number2].to_i
     #@mult = params[:number1].to_i * params[:number2].to_i
     #@div = params[:number1].to_i / params[:number2].to_i
       "#{@add}"
-      #{}"#{@sub}"
+      "#{@sub}"
     #  "#{@mult}"
     #  "#{@div}"
     end
