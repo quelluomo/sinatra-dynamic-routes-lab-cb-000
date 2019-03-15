@@ -29,10 +29,10 @@ class App < Sinatra::Base
     @sub = params[:number1].to_i - params[:number2].to_i
     #@mult = params[:number1].to_i * params[:number2].to_i
     #@div = params[:number1].to_i / params[:number2].to_i
-      "#{@add}"
-      "#{@sub}"
-    #  "#{@mult}"
-    #  "#{@div}"
+      puts "#{@add}"
+      puts "#{@sub}"
+      puts "#{@mult}"
+      puts "#{@div}"
     end
 
 end
