@@ -7,8 +7,8 @@ class App < Sinatra::Base
     "#{@reverse}"
   end
 
-  get "/square/:num" do
-    @square = params[:num] * params[:num]
+  get "/square/:number" do
+    @square = params[:number] * params[:number]
     "#{@square}"
   end
 end
